@@ -2,8 +2,6 @@ package com.tameshk.lottery;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 public class Announcement extends Activity {
 
@@ -13,7 +11,7 @@ public class Announcement extends Activity {
         setContentView(R.layout.activity_announcement);
     }
 
-    @Override
+  /*  @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_announcement, menu);
@@ -33,5 +31,5 @@ public class Announcement extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 }
