@@ -1,36 +1,30 @@
 package com.tameshk.lottery;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 
-public class FirstActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       /*ommit the title bar*/
+        /*ommit the title bar*/
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
-        setContentView(R.layout.activity_first);
+        setContentView(R.layout.activity_main);
+    }
 
-        /*move to another activity after seconds*/
-        final android.os.Handler handler = new android.os.Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(new Intent(FirstActivity.this,MainActivity.class));
-                finish();
-            }
-        },3000);
+    @Override
+    public void onClick(View v) {
 
     }
 
-    /*@Override
+   /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_first, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 

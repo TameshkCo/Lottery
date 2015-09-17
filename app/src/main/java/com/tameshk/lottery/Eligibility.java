@@ -1,36 +1,22 @@
 package com.tameshk.lottery;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.Window;
+import android.view.Menu;
+import android.view.MenuItem;
 
-public class FirstActivity extends Activity {
+public class Eligibility extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       /*ommit the title bar*/
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-
-        setContentView(R.layout.activity_first);
-
-        /*move to another activity after seconds*/
-        final android.os.Handler handler = new android.os.Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(new Intent(FirstActivity.this,MainActivity.class));
-                finish();
-            }
-        },3000);
-
+        setContentView(R.layout.activity_eligibility);
     }
 
-    /*@Override
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_first, menu);
+        getMenuInflater().inflate(R.menu.menu_eligibility, menu);
         return true;
     }
 
@@ -47,5 +33,5 @@ public class FirstActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
-    }*/
+    }
 }

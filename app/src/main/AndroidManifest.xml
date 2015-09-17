@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".GreenCard"
+            android:label="@string/title_activity_green_card" >
+        </activity>
+        <activity
+            android:name=".Eligibility"
+            android:label="@string/title_activity_eligibility" >
+        </activity>
     </application>
 
 </manifest>
