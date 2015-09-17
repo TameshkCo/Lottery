@@ -6,4 +6,10 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_green_card">GreenCard</string>
     <string name="title_activity_eligibility">Eligibility</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_announcement">Announcement</string>
+    <string name="title_activity_faq">Faq</string>
+    <string name="title_activity_winners">Winners</string>
+    <string name="title_activity_resources">Resources</string>
+    <string name="title_activity_contact">Contact</string>
 </resources>

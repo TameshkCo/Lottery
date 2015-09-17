@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.ImageButton;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -16,9 +17,23 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
     }
 
+    ImageButton gcBtn = (ImageButton) findViewById(R.id.gc_btn);
+    ImageButton elBtn = (ImageButton) findViewById(R.id.eli_btn);
+    ImageButton rgBtn = (ImageButton) findViewById(R.id.reg_btn);
+    ImageButton anBtn = (ImageButton) findViewById(R.id.winner_btn);
+    ImageButton fqBtn = (ImageButton) findViewById(R.id.faq_btn);
+    ImageButton wnBtn = (ImageButton) findViewById(R.id.winner_btn);
+    ImageButton rsBtn = (ImageButton) findViewById(R.id.res_btn);
+    ImageButton cnBtn = (ImageButton) findViewById(R.id.cont_btn);
+
+
+
+
     @Override
     public void onClick(View v) {
+        
 
+    }
     }
 
    /* @Override
@@ -42,4 +57,4 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         return super.onOptionsItemSelected(item);
     }*/
-}
+

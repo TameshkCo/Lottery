@@ -28,6 +28,30 @@
             android:name=".Eligibility"
             android:label="@string/title_activity_eligibility" >
         </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".Announcement"
+            android:label="@string/title_activity_announcement" >
+        </activity>
+        <activity
+            android:name=".Faq"
+            android:label="@string/title_activity_faq" >
+        </activity>
+        <activity
+            android:name=".Winners"
+            android:label="@string/title_activity_winners" >
+        </activity>
+        <activity
+            android:name=".Resources"
+            android:label="@string/title_activity_resources" >
+        </activity>
+        <activity
+            android:name=".Contact"
+            android:label="@string/title_activity_contact" >
+        </activity>
     </application>
 
 </manifest>
